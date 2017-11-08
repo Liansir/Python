@@ -1,0 +1,14 @@
+#!/usr/bin/env python 
+#
+
+import socket
+
+def test_socket_timeout():
+	sk = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+	print "Default socket timeout: %s" % sk.gettimeout()
+	sk.settimeout(100)
+	print "Default socket timeout: %s" % sk.gettimeout()
+	
+if __name__=='__main__':
+	test_socket_timeout()
+
