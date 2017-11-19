@@ -29,6 +29,9 @@ def main():
 	except socket.gaierror, e:
 		print "Address-related error connecting to server: %s" % e
 		sys.exit(1)
+	except socket.error, e:
+		print "Conneting error: %s" % e
+		sys.exit(1)
 
 	# Third try-except block -- sending data
 	try:
