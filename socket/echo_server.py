@@ -17,7 +17,7 @@ def echo_server(port):
 	s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 	# Bind to the port
 	server_address = (host, port)
-	print "Starting echo server on $s port %s" % server_address
+	print "Starting echo server on %s port %s" % server_address
 	# Listen to client
 	s.listen(backlog)
 	while True:
