@@ -1,0 +1,29 @@
+DEBUG:root:this is a debug log
+WARNING:root:this is a warning log
+ERROR:root:this is a error log
+INFO:root:this is a info log
+DEBUG:root:this is a debug log
+WARNING:root:this is a warning log
+ERROR:root:this is a error log
+INFO:root:this is a info log
+CRITICAL:root:this is a critical log
+DEBUG:root:this is a debug log
+WARNING:root:this is a warning log
+ERROR:root:this is a error log
+INFO:root:this is a info log
+CRITICAL:root:this is a critical log
+DEBUG:root:this is a debug log
+WARNING:root:this is a warning log
+ERROR:root:this is a error log
+INFO:root:this is a info log
+CRITICAL:root:this is a critical log
+2019-05-08 23:22:10,105======DEBUG+++++++(message)s
+2019-05-08 23:22:10,106======WARNING+++++++(message)s
+2019-05-08 23:22:10,106======ERROR+++++++(message)s
+2019-05-08 23:22:10,106======INFO+++++++(message)s
+2019-05-08 23:22:10,106======CRITICAL+++++++(message)s
+2019-05-08 23:23:29,483======DEBUG+++++++this is a debug log
+2019-05-08 23:23:29,483======WARNING+++++++this is a warning log
+2019-05-08 23:23:29,483======ERROR+++++++this is a error log
+2019-05-08 23:23:29,483======INFO+++++++this is a info log
+2019-05-08 23:23:29,483======CRITICAL+++++++this is a critical log
